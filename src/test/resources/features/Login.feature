@@ -34,4 +34,5 @@ Feature: Ryn VPN
     Then I must be able to see monthly subscription
     Then I must be able to see three months subscription
     When I click continue button
+    Then I must be able to see text as time left
 
