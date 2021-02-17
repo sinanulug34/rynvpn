@@ -1,0 +1,5 @@
+com/getir/mobile/runner/CucumberRunner.class
+com/getir/mobile/stepdefs/BaseStepDef.class
+com/getir/mobile/stepdefs/CategoryPageStepDef.class
+com/getir/mobile/runner/Runner.class
+com/getir/mobile/stepdefs/LoginPageStepDef.class
