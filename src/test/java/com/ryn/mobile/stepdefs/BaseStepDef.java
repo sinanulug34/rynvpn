@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 public class BaseStepDef {
-    public AndroidDriver appiumDriver = Runner.appiumDriver();
+    public AppiumDriver appiumDriver = Runner.appiumDriver();
     private static final int wait = 15;
 
 
@@ -42,10 +42,6 @@ public class BaseStepDef {
     public static int getWait() {
         return wait;
     }
-    public void clickElementWithAccessID(String element){
-        appiumDriver.findElementByAccessibilityId(element).click();
-    }
-
     public List<WebElement> findElements(By element) {
         return appiumDriver.findElements(element);
     }

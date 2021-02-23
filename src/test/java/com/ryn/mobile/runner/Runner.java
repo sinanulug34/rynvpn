@@ -15,7 +15,7 @@ import java.net.URL;
 
 public class Runner {
     private static WebDriver webDriver;
-    private static AndroidDriver appiumDriver;
+    private static AppiumDriver appiumDriver;
 
 
     @Before
@@ -36,7 +36,7 @@ public class Runner {
         appiumDriver.quit();
     }
 
-    public static AndroidDriver appiumDriver() {
+    public static AppiumDriver appiumDriver() {
         return appiumDriver;
     }
 }
